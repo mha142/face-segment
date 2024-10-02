@@ -29,7 +29,7 @@ The script is run like so:
 
 If successful, a file `output.jpg` will be produced with only segmented face regions in the input image.
 
-To segment all the images in one folder, run this code only one time:
+To segment multiple images at once, all images should be in the folder called "images" , run this code only one time:
 
     mkdir output_images
     python .\faceseg_all_images.py
